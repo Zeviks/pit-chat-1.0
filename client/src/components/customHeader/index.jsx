@@ -13,7 +13,7 @@ const Header = ({ chat }) => {
         {chat.description !== "⬅️ ⬅️ ⬅️" ? (
           <p className="header-text">{chat.description}</p>
         ) : (
-          <p className="header-text">no chat selected</p>
+          <p className="header-text">Please Select a Chat</p>
         )}
       </div>
     </div>
